@@ -23,7 +23,7 @@ const LoginMain = () => {
         });
         console.log(res);
         if (res.data.isAdmin) {
-          window.location = "http://localhost:3000/admin";
+          window.location = "https://bank-blue.vercel.app/admin";
         } else {
           toast.error("Not Allowed");
         }
