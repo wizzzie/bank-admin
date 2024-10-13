@@ -23,7 +23,7 @@ const LoginMain = () => {
         });
         console.log(res);
         if (res.data.isAdmin) {
-          window.location = "https://bank-blue.vercel.app/admin";
+          window.location = "klw-bank-rosy.vercel.app/admin";
         } else {
           toast.error("Not Allowed");
         }
